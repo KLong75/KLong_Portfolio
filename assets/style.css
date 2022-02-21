@@ -1,0 +1,169 @@
+:root {
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: green;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 35px;
+    color: yellow;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    font-size: 20px;
+}
+
+header nav ul li a {
+    padding: 40px 45px;
+    font-weight: lighter;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: yellow;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    background-color: green;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);  
+}
+
+
+footer h2 {
+    font-size: 35px;
+    color: yellow;
+    
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+}
+
+footer ul li  {
+    padding: 40px 45px;
+    font-weight: lighter;
+    font-size: 26px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: yellow;
+}
+
+footer ul li a {
+    color: yellow;
+}
+
+#portfolio h2 {
+    text-align: center;
+}
+
+.feature-work-sample {
+    border: 2px solid black;
+}
+
+.work-sample {
+    border: 2px solid black;
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .feature-work-sample {
+        padding: 30px 15px;
+    }
+
+    .feature-work-sample h3 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .feature-work-sample img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .feature-work-sample text {
+        flex: 100%
+    }
+
+    .work-sample {
+        padding: 30px 15px;
+    }
+
+    .work-sample h3 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .work-sample img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .work-sample text {
+        flex: 100%
+    }
+}
+ 
+
+
+
+   
+
+    
+
+    
+
