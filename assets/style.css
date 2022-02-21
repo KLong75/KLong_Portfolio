@@ -75,6 +75,10 @@ footer ul li a {
     color: yellow;
 }
 
+main {
+    background-color: yellow;
+}
+
 #portfolio h2 {
     text-align: center;
 }
